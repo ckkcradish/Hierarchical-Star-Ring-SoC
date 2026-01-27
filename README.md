@@ -1,6 +1,6 @@
-# Multi-Engine NoC-based SoC Architecture with Ring Bus Interconnect
+# Multi-Engine Ring Bus SoC
 
-**High-Throughput System-on-Chip Design | SystemVerilog | Hierarchical NoC Architecture**
+**High-Throughput System-on-Chip Design | SystemVerilog | Hierarchical SoC Architecture**
 
 This repository contains the full RTL implementation of a **Multi-Engine SoC** featuring a custom **Star-Ring Hybrid Topology**. The architecture is designed to bridge a high-speed Testbench Controller with distributed E5M6 FP Processing Engines (E) using a hierarchical **Network-on-Chip (NoC)** substrate.
 
