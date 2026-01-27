@@ -24,7 +24,7 @@ This project involves end-to-end architectural design, from the central routing 
 | File | Description | Ownership |
 | :--- | :--- | :--- |
 | `mulacc.sv` | **Processing Engine**: Implements the 3-FSM micro-architecture (Bus/FIFO/Compute) for flow control and SIMD data feeding. | **Original Design** |
-| `calc_top.sv` | **SIMD Datapath**: Manages the 42-way parallel floating-point multiplier-adder tree. | **Original Design** |
+| `calc_top.sv` | **SIMD Datapath**: Manages the 42-way parallel floating-point multiplier-adder tree. |  **Collaborative Design** (Optimized based on teammate's logic)  |
 | `fpm.sv` | Floating-Point Multiplier with **Hidden-1 optimization** and saturation logic. | **Original Design** |
 | `fpa.sv` | Floating-Point Adder utilized in the pipelined reduction tree. | **Collaborative Design** (Optimized based on teammate's logic) |
 
