@@ -5,6 +5,7 @@
 This repository contains the full RTL implementation of a **Multi-Engine SoC** featuring a custom **Star-Ring Hybrid Topology**. The architecture is designed to bridge a high-speed Testbench Controller with distributed Processing Engines (PEs) using a hierarchical **Network-on-Chip (NoC)** substrate.
 
 The design implements a custom **"Piggyback Token Passing"** protocol with **Store-and-Forward** buffering to achieve zero-latency interconnect switching and deadlock-free arbitration across multiple ring domains.
+
 <img width="350" height="350" alt="image" src="https://github.com/user-attachments/assets/735b8149-a7d2-4af0-ab45-367d7852291b" />
 
 ---
