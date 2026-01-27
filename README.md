@@ -2,7 +2,7 @@
 
 **High-Throughput System-on-Chip Design | SystemVerilog | Hierarchical NoC Architecture**
 
-This repository contains the full RTL implementation of a **Multi-Engine SoC** featuring a custom **Star-Ring Hybrid Topology**. The architecture is designed to bridge a high-speed Testbench Controller with distributed Processing Engines (PEs) using a hierarchical **Network-on-Chip (NoC)** substrate.
+This repository contains the full RTL implementation of a **Multi-Engine SoC** featuring a custom **Star-Ring Hybrid Topology**. The architecture is designed to bridge a high-speed Testbench Controller with distributed E5M6 FP Processing Engines (E) using a hierarchical **Network-on-Chip (NoC)** substrate.
 
 The design implements a custom **"Piggyback Token Passing"** protocol with **Store-and-Forward** buffering to achieve zero-latency interconnect switching and deadlock-free arbitration across multiple ring domains.
 
@@ -12,7 +12,7 @@ The design implements a custom **"Piggyback Token Passing"** protocol with **Sto
 
 ##  Repository Structure & Ownership
 
-This project involves end-to-end architectural design, from the central routing fabric to the SIMD compute engines.
+This project involves end-to-end architectural design, from the central routing hub to the FP processing engines.
 
 ### 1. Interconnect Fabric (The Backbone)
 | File | Description | Ownership |
