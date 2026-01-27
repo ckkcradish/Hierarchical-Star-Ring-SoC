@@ -26,7 +26,7 @@ This project involves end-to-end architectural design, from the central routing 
 | `mulacc.sv` | **Processing Engine**: Implements the 3-FSM micro-architecture (Bus/FIFO/Compute) for flow control and SIMD data feeding. | **Original Design** |
 | `calc_top.sv` | **SIMD Datapath**: Manages the 42-way parallel floating-point multiplier-adder tree. | **Original Design** |
 | `fpm.sv` | Floating-Point Multiplier with **Hidden-1 optimization** and saturation logic. | **Original Design** |
-| `fpa.sv` | Floating-Point Adder utilized in the pipelined reduction tree. | **Original Design** |
+| `fpa.sv` | Floating-Point Adder utilized in the pipelined reduction tree. | **Collaborative Design** (Optimized based on teammate's logic) |
 
 > **Note**: `p25intf.sv` was provided as part of the course infrastructure to ensure standard interface compatibility. All NoC routing logic (`hub`, `sub_hub`) and Compute micro-architectures (FSMs, Datapaths) were independently architected and implemented by me.
 
