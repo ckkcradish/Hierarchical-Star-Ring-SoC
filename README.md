@@ -72,7 +72,6 @@ The `mulacc` engine is orchestrated by three decoupled Finite State Machines to 
 ##  Tools Used
 * **RTL Design**: SystemVerilog
 * **Simulation**: Synopsys VCS
-* **Synthesis**: Synopsys Design Compiler
 
 ---
 
