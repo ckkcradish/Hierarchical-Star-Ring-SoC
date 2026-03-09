@@ -154,8 +154,7 @@ module mulacc(
     logic signed [31:0] incoming_num_groups;
     assign incoming_num_groups = bin.Data[127:96];
 
-    // --- [Refactored] Threshold & Limit Calculation Logic ---
-    // Extracting this logic out of the FSM blocks to avoid duplication and errors.
+    // --- Threshold & Limit Calculation Logic ---
     logic [31:0] space_limit;
     logic threshold_met;
 
