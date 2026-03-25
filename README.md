@@ -50,7 +50,7 @@ The system utilizes a two-level hierarchy to maximize bandwidth and scalability:
 ### 3. Micro-Architecture: The "2FSM + FIFO Full/Empty Logic" Core
 The `mulacc` engine is orchestrated by three decoupled Finite State Machines to maximize throughput:
 * **Bus FSM (The Loader)**: Handles RBUS protocol decoding, address calculation, and burst mode transfers.
-* **FIFO Full/Empty Logic (The Guard)**: Manages 8-entry asynchronous FIFOs. Features **conservative empty/full logic** to prevent Read-After-Write (RAW) race conditions.
+* **FIFO Full/Empty Logic (The Guard)**: Manages 8-entry asynchronous FIFOs. Features **conservative empty/full logic** to prevent race conditions.
 * **Compute FSM (The Feeder)**: Implements a **Ping-Pong data feeding strategy**. It unpacks 1008-bit wide words into 504-bit SIMD vectors to drive the compute pipeline without stalling.
 
 
